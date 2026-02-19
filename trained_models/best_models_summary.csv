@@ -1,0 +1,29 @@
+Ash Type,Target Variable,Best Model,Train R²,Test R²,Val R²,Val RMSE,Val MAE
+POFA,cost_USD_per_m3,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+POFA,Slump(mm),Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+POFA,compressive_strength_MPa_,XGBoost,0.9961,0.9813,0.9663,3.1018,2.3964
+POFA,CO2_kgCO₂e / kg,Decision Tree,0.9993,0.9835,0.9882,8.0938,1.6471
+RHA,cost_USD_per_m3,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+RHA,Slump(mm),Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+RHA,compressive_strength_MPa_,CatBoost,0.9354,0.8867,0.9280,4.8881,3.4919
+RHA,CO2_kgCO₂e / kg,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+SCBA,cost_USD_per_m3,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+SCBA,Slump(mm),Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+SCBA,compressive_strength_MPa_,CatBoost,0.9639,0.9574,0.9645,1.9042,1.3543
+SCBA,CO2_kgCO₂e / kg,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+ GSA,cost_USD_per_m3,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+ GSA,Slump(mm),Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+ GSA,compressive_strength_MPa_,XGBoost,0.8721,0.7709,0.7163,2.4122,1.9833
+ GSA,CO2_kgCO₂e / kg,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+WSA,cost_USD_per_m3,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+WSA,Slump(mm),Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+WSA,compressive_strength_MPa_,XGBoost,0.9641,0.9209,0.9379,2.2159,1.7991
+WSA,CO2_kgCO₂e / kg,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+BLA,cost_USD_per_m3,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+BLA,Slump(mm),Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+BLA,compressive_strength_MPa_,CatBoost,0.9013,0.7469,0.7527,1.7968,1.4392
+BLA,CO2_kgCO₂e / kg,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+CCA,cost_USD_per_m3,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000
+CCA,Slump(mm),CatBoost,0.9986,0.9916,0.9912,1.9657,1.6716
+CCA,compressive_strength_MPa_,Random Forest,0.9867,0.9636,0.9783,2.6221,1.6242
+CCA,CO2_kgCO₂e / kg,Linear Regression,1.0000,1.0000,1.0000,0.0000,0.0000

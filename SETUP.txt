@@ -1,0 +1,84 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║         CONCRETE MIXTURE PREDICTION SYSTEM                   ║
+║              Setup & Installation Guide                      ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📦 PACKAGE CONTENTS:
+──────────────────────────────────────────────────────────────
+✓ concrete_ml_analysis.ipynb    - Training notebook (Colab/Jupyter)
+✓ concrete_predictor_gui.py     - GUI application
+✓ REVISED_DATASET.xlsx          - Input data (7 ash types)
+✓ run_gui.py                    - GUI launcher
+✓ run_gui.bat                   - Windows launcher
+✓ run_gui.sh                    - Linux/Mac launcher
+✓ requirements.txt              - Python dependencies
+✓ README.md                     - Full documentation
+✓ QUICKSTART.md                 - Quick start guide
+✓ SETUP.txt                     - This file
+
+══════════════════════════════════════════════════════════════
+
+🚀 QUICK SETUP (3 STEPS):
+──────────────────────────────────────────────────────────────
+
+STEP 1: Install Python Packages
+────────────────────────────────
+Open terminal/command prompt in this folder and run:
+
+    py -m pip install -r requirements.txt
+
+OR (if using Python 3):
+
+    pip3 install -r requirements.txt
+
+STEP 2: Run the GUI
+────────────────────
+Windows:
+   • Double-click: run_gui.bat
+   OR
+   • Run: python run_gui.py
+
+Linux/macOS:
+   • Run: ./run_gui.sh
+   OR
+   • Run: python3 run_gui.py
+
+══════════════════════════════════════════════════════════════
+
+📋 SYSTEM REQUIREMENTS:
+──────────────────────────────────────────────────────────────
+✓ Python 3.8 or higher
+✓ 4 GB RAM (8 GB recommended for training)
+✓ 500 MB disk space
+✓ Internet connection (for package installation)
+
+══════════════════════════════════════════════════════════════
+
+🔧 TROUBLESHOOTING:
+──────────────────────────────────────────────────────────────
+
+Problem: "No module named 'xyz'"
+Solution: py -m pip install -r requirements.txt
+
+Problem: "tkinter not found"
+Solution: 
+   • Linux (Ubuntu): sudo apt-get install python3-tk
+   • Linux (Fedora): sudo dnf install python3-tkinter
+   • macOS/Windows: Should be pre-installed
+
+Problem: "Failed to load models"
+Solution:
+   • Complete STEP 2 (train the models)
+   • Verify 'trained_models' folder exists here
+   • Check for 'model_registry.pkl' inside it
+
+Problem: Notebook won't run
+Solution:
+   • Ensure REVISED_DATASET.xlsx is uploaded/present
+   • Run cells sequentially from top to bottom
+   • Check RAM availability (need 4GB+)
+
+══════════════════════════════════════════════════════════════
+
